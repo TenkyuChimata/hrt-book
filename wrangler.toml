@@ -1,0 +1,7 @@
+name = "mtf-hrt-doc"
+main = "worker/index.ts"
+compatibility_date = "2026-02-23"
+
+[assets]
+directory = "./docs/.vuepress/dist"
+binding = "ASSETS"

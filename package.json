@@ -22,12 +22,21 @@
     "typescript": "^5.9.3",
     "vue": "^3.5.28",
     "vuepress": "2.0.0-rc.2",
-    "vuepress-collapsible-toplevel-sidebar": "^0.1.0"
+    "vuepress-collapsible-toplevel-sidebar": "^0.1.0",
+    "wrangler": "^4.67.0"
   },
   "pnpm": {
     "overrides": {
       "vuepress": "2.0.0-rc.2",
       "@vuepress/*": "2.0.0-rc.2"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "less",
+      "sharp",
+      "vue-demi",
+      "workerd"
+    ]
   }
 }
