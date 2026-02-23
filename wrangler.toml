@@ -1,4 +1,4 @@
-name = "mtf-hrt-doc"
+name = 'hrt-book'
 main = "worker/index.ts"
 compatibility_date = "2026-02-23"
 
